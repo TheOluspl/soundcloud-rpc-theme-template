@@ -6,10 +6,10 @@ A clean, highly documented, and easy-to-use CSS starter template for creating cu
 
 ## 🎨 How to Use
 
-1. Download or copy the code from [`template.css`](./template.css).
+1. **[Click here to download `template.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/template.css)** (Right-click -> *Save link as...* / *Zapisz link jako...*).
 2. Open the **SoundCloud RPC** app settings.
 3. Click on **Open Themes Folder**.
-4. Paste your modified `.css` file inside the folder.
+4. Move the downloaded `template.css` file inside that folder.
 5. Click **Refresh Themes** in the app and select your custom theme from the dropdown menu!
 
 ---
