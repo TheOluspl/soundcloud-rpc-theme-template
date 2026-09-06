@@ -1,0 +1,111 @@
+/* ==========================================================================
+   SoundCloud RPC - Velvet Void Theme
+   Author: TheOluspl
+   Style: Deep AMOLED Black with Vibrant Cherry Red Accents
+   Repository: https://github.com/TheOluspl/soundcloud-rpc-theme-template
+   ========================================================================== */
+
+/* Full black backgrounds */
+body, 
+#app, 
+.l-container, 
+.l-main, 
+.l-sidebar,
+.commentForm__input,
+.listenSection {
+  background-color: #000000 !important;
+  color: #f0f0f0 !important;
+}
+
+/* Header bar */
+.header {
+  background: #080808 !important;
+  border-bottom: 1px solid #1c1c1c !important;
+}
+
+/* Search bar */
+.headerSearch__input {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border: 1px solid #2a2a2a !important;
+  border-radius: 6px !important;
+}
+
+.headerSearch__input:focus {
+  border-color: #e6004c !important;
+  box-shadow: 0 0 8px rgba(230, 0, 76, 0.4) !important;
+}
+
+/* Track cards & items */
+.systemPlaylistTile,
+.soundBadge,
+.audibleTile__inner,
+.trackItem,
+.commentForm__wrapper {
+  background-color: #0a0a0a !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 8px !important;
+}
+
+.systemPlaylistTile:hover,
+.audibleTile__inner:hover {
+  border-color: #e6004c !important;
+  box-shadow: 0 4px 12px rgba(230, 0, 76, 0.25) !important;
+}
+
+/* Buttons */
+.sc-button,
+.sc-button-cta,
+.sc-button-secondary {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border: 1px solid #2a2a2a !important;
+  border-radius: 6px !important;
+}
+
+.sc-button:hover,
+.sc-button-cta:hover {
+  background-color: #e6004c !important;
+  color: #ffffff !important;
+  border-color: #e6004c !important;
+}
+
+/* Follow / Action Buttons */
+.sc-button-follow,
+.sc-button-selected {
+  background-color: #1a000a !important;
+  color: #ff3377 !important;
+  border: 1px solid #e6004c !important;
+}
+
+/* Bottom Player Bar */
+.playControls__inner {
+  background: #080808 !important;
+  border-top: 1px solid #1c1c1c !important;
+}
+
+/* Timeline progress */
+.playbackTimeline__passedProgress {
+  background: #e6004c !important;
+  box-shadow: 0 0 10px rgba(230, 0, 76, 0.6) !important;
+}
+
+.playbackTimeline__progressWrapper {
+  height: 4px !important;
+}
+
+/* Links & Titles */
+.soundTitle__title, 
+.soundTitle__username,
+.playbackTitle__link,
+.sc-type-h2 {
+  color: #ffffff !important;
+}
+
+a.sc-link-dark {
+  color: #888888 !important;
+}
+
+a.sc-link-dark:hover {
+  color: #ff3377 !important;
+}
