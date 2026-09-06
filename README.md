@@ -4,13 +4,20 @@ A clean, highly documented, and easy-to-use CSS starter template for creating cu
 
 ---
 
+## 🚀 Quick Download
+
+* 💾 **[Click here to download `template.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/template.css)**  
+  *(Right-click the link above and select **"Save link as..."** / **"Zapisz link jako..."**)*
+
+---
+
 ## 🎨 How to Use
 
-1. **[Click here to download `template.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/template.css)** (Right-click -> *Save link as...* / *Zapisz link jako...*).
+1. Download the `template.css` file using the link above.
 2. Open the **SoundCloud RPC** app settings.
 3. Click on **Open Themes Folder**.
-4. Move the downloaded `template.css` file inside that folder.
-5. Click **Refresh Themes** in the app and select your custom theme from the dropdown menu!
+4. Place your downloaded `.css` file inside that folder.
+5. Click **Refresh Themes** in the app and select your theme from the dropdown menu!
 
 ---
 
