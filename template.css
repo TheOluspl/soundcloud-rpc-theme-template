@@ -1,0 +1,160 @@
+/* ==========================================================================
+   SoundCloud RPC - Custom Theme Template
+   Author: TheOluspl
+   Description: Clean starter template for custom CSS themes.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   1. MAIN GLOBAL STYLES (Background & Primary Colors)
+   ========================================================================== */
+
+/* Main page background and primary text color */
+body, 
+#app, 
+.l-container, 
+.l-main, 
+.l-sidebar {
+  background-color: #000000 !important; /* [MAIN BACKGROUND COLOR - HEX/RGB] */
+  color: #ffffff !important;            /* [MAIN TEXT COLOR - HEX/RGB] */
+}
+
+
+/* ==========================================================================
+   2. HEADER / NAVIGATION BAR (Top Bar)
+   ========================================================================== */
+
+/* Top navigation bar background & bottom border */
+.header {
+  background: #111111 !important;             /* [HEADER BACKGROUND COLOR] */
+  border-bottom: 1px solid #222222 !important; /* [HEADER BOTTOM BORDER COLOR] */
+}
+
+/* Search bar input field */
+.headerSearch__input {
+  background-color: #1a1a1a !important; /* [SEARCH BAR BACKGROUND] */
+  color: #ffffff !important;            /* [SEARCH BAR TEXT COLOR] */
+  border: 1px solid #333333 !important; /* [SEARCH BAR BORDER COLOR] */
+  border-radius: 8px !important;        /* [SEARCH BAR CORNER ROUNDING] */
+}
+
+/* Search bar on click/focus */
+.headerSearch__input:focus {
+  border-color: #ff5500 !important;                     /* [SEARCH BAR FOCUS BORDER COLOR] */
+  box-shadow: 0 0 8px rgba(255, 85, 0, 0.4) !important; /* [SEARCH BAR GLOW EFFECT] */
+}
+
+
+/* ==========================================================================
+   3. SECTION HEADINGS & TITLES
+   ========================================================================== */
+
+/* Section titles (e.g. "Ostatnio odtwarzane", "Więcej ulubionych") */
+.playableTile__mainHeading,
+.sc-type-h2,
+.sidebarHeader__title {
+  color: #ffffff !important; /* [SECTION HEADERS TEXT COLOR] */
+}
+
+
+/* ==========================================================================
+   4. CARDS, TRACK TILES & CONTAINERS
+   ========================================================================== */
+
+/* Cards, track item backgrounds and boxes */
+.systemPlaylistTile,
+.soundBadge,
+.audibleTile__inner,
+.trackItem {
+  background-color: #111111 !important; /* [CARD BACKGROUND COLOR] */
+  border: 1px solid #222222 !important; /* [CARD BORDER COLOR] */
+  border-radius: 12px !important;       /* [CARD CORNER ROUNDING] */
+  transition: all 0.2s ease !important;
+}
+
+/* Card hover effect (when cursor is over the item) */
+.systemPlaylistTile:hover,
+.audibleTile__inner:hover {
+  border-color: #ff5500 !important;                   /* [CARD HOVER BORDER COLOR] */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;/* [CARD HOVER SHADOW] */
+  transform: translateY(-2px) !important;             /* [CARD HOVER LIFT EFFECT] */
+}
+
+
+/* ==========================================================================
+   5. BUTTONS & INTERACTIVE ELEMENTS
+   ========================================================================== */
+
+/* Standard buttons (e.g. "Przejdź do playlisty") */
+.sc-button,
+.sc-button-cta,
+.sc-button-secondary {
+  background-color: #1a1a1a !important; /* [BUTTON BACKGROUND COLOR] */
+  color: #ffffff !important;            /* [BUTTON TEXT COLOR] */
+  border: 1px solid #333333 !important; /* [BUTTON BORDER COLOR] */
+  border-radius: 8px !important;        /* [BUTTON CORNER ROUNDING] */
+  transition: all 0.2s ease !important;
+}
+
+/* Standard buttons on hover */
+.sc-button:hover,
+.sc-button-cta:hover {
+  background-color: #ff5500 !important; /* [BUTTON HOVER BACKGROUND COLOR] */
+  color: #ffffff !important;            /* [BUTTON HOVER TEXT COLOR] */
+  border-color: #ff5500 !important;     /* [BUTTON HOVER BORDER COLOR] */
+}
+
+/* Follow button style */
+.sc-button-follow {
+  background-color: rgba(255, 85, 0, 0.1) !important; /* [FOLLOW BUTTON BACKGROUND] */
+  color: #ff5500 !important;                           /* [FOLLOW BUTTON TEXT COLOR] */
+  border: 1px solid #ff5500 !important;               /* [FOLLOW BUTTON BORDER COLOR] */
+}
+
+.sc-button-follow:hover {
+  background-color: #ff5500 !important; /* [FOLLOW BUTTON HOVER BACKGROUND] */
+  color: #ffffff !important;            /* [FOLLOW BUTTON HOVER TEXT COLOR] */
+}
+
+
+/* ==========================================================================
+   6. BOTTOM PLAYER & PROGRESS BAR
+   ========================================================================== */
+
+/* Bottom player bar container */
+.playControls__inner {
+  background: #111111 !important;             /* [PLAYER BAR BACKGROUND COLOR] */
+  border-top: 1px solid #222222 !important;    /* [PLAYER BAR TOP BORDER COLOR] */
+}
+
+/* Player timeline progress bar (Played track color) */
+.playbackTimeline__passedProgress {
+  background: #ff5500 !important;                      /* [PROGRESS BAR COLOR OR GRADIENT] */
+  box-shadow: 0 0 8px rgba(255, 85, 0, 0.5) !important; /* [PROGRESS BAR GLOW EFFECT] */
+}
+
+/* Player timeline height */
+.playbackTimeline__progressWrapper {
+  height: 4px !important; /* [PROGRESS BAR THICKNESS] */
+}
+
+
+/* ==========================================================================
+   7. TEXT LINKS & TRACK NAMES
+   ========================================================================== */
+
+/* Track titles and artist links */
+.soundTitle__title, 
+.soundTitle__username,
+.playbackTitle__link {
+  color: #ffffff !important; /* [TRACK TITLE & ARTIST TEXT COLOR] */
+}
+
+/* Secondary dark links */
+a.sc-link-dark {
+  color: #888888 !important; /* [SECONDARY LINK TEXT COLOR] */
+}
+
+a.sc-link-dark:hover {
+  color: #ff5500 !important; /* [SECONDARY LINK HOVER COLOR] */
+}
