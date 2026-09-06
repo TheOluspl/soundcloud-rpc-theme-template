@@ -1,44 +1,32 @@
-# 🎵 SoundCloud RPC - Custom CSS Theme Template
+# 🎵 SoundCloud RPC - Custom CSS Themes & Template
 
-A clean, highly documented, and easy-to-use CSS starter template for creating custom themes for **SoundCloud RPC** by **[richardhbtz](https://github.com/richardhbtz)**.
+A collection of clean, high-contrast custom CSS themes and a starter template for **SoundCloud RPC** by **[richardhbtz](https://github.com/richardhbtz)**.
 
 ---
 
-## 🚀 Quick Download
+## 🎨 Available Themes
 
-* 💾 **[Click here to download `template.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/template.css)**  
-  *(Right-click the link above and select **"Save link as..."** / **"Zapisz link jako..."**)*
+* 🖤 **Velvet Void** (by **TheOluspl**)  
+  💾 **[Click here to download `velvet-void.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/velvet-void.css)**  
+  *(Deep AMOLED black base with vibrant cherry red accents)*
+
+* 🛠️ **Base Starter Template**  
+  💾 **[Click here to download `template.css`](https://raw.githubusercontent.com/TheOluspl/soundcloud-rpc-theme-template/main/template.css)**  
+  *(Fully documented CSS template to build your own themes)*
 
 ---
 
 ## 🎨 How to Use
 
-1. Download the `template.css` file using the link above.
+1. Download your preferred `.css` file using the links above.
 2. Open the **SoundCloud RPC** app settings.
 3. Click on **Open Themes Folder**.
-4. Place your downloaded `.css` file inside that folder.
+4. Place the downloaded `.css` file inside that folder.
 5. Click **Refresh Themes** in the app and select your theme from the dropdown menu!
-
----
-
-## 🛠️ How to Customize & Find CSS Elements
-
-Open `template.css` in any text editor (like VS Code or Notepad). Each section is clearly commented with tags indicating what color or property to change.
-
-### 🔍 Inspecting Elements
-To find specific CSS classes to style:
-* Press **`F1`** inside the SoundCloud RPC app to open DevTools / Inspect Element.
-* *Note:* Depending on your app version, **`F1`** might not work. If it doesn't, inspect elements by using the standard web version of SoundCloud in your browser (using **`F12`** or Right-Click -> Inspect), as class names are identical.
 
 ---
 
 ## 💬 Support & Contact
 
-If you run into any issues, have questions, or need help tweaking your CSS, feel free to add me on Discord:
+If you run into any issues or need help tweaking your CSS, feel free to add me on Discord:
 * **Discord:** `oluspl`
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repository, share your own custom themes, or submit a Pull Request to improve the base template!
